@@ -17,7 +17,7 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <TitreH1>Liste des Membres-Anciens IAI</TitreH1> 
+        <TitreH1>Liste des Membres-Anciens IAI CONGO</TitreH1> 
         <Membres ajoutMembre={this.state.ajoutMembre} fermerAjoutMembre={() => this.setState({ajoutMembre:false})}/>
         <Bouton 
           typeBtn="btn-success" 
